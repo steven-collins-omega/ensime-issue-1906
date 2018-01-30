@@ -10,6 +10,6 @@ lazy val root = (project in file(".")).
     name := "Hello",
     libraryDependencies ++= Seq(scalaTest % Test
     // With the following line commented out, ensimeServerIndex completes successfully
-      , log4j
+    //  , log4j
     )
   )
